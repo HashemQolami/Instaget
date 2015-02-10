@@ -1,0 +1,7 @@
+vendor/*
+composer.lock
+
+example/.htaccess
+example/images/*
+example/data/*
+!example/data/.htaccess

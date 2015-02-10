@@ -1,0 +1,24 @@
+{
+    "name": "hashem/instaget",
+    "description": "A simple PHP library to get Instagram photos per user",
+    "require": {
+        "php": ">=5.4.0",
+        "league/flysystem": "~1.0.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hashem Qolami",
+            "email": "hashem@qolami.com",
+            "homepage": "http://hashem.ir"
+        }
+    ],
+    "keywords": [
+        "instagram"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hashem\\Instaget\\": "src/"
+        }
+    }
+}
